@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    Background-color: #d0dcea;
+  }
+  .main{
+    margin: auto;
+    width: 20vw;
+    padding: 110px 0px; 
+  }
+
+  .scan {
+    background-color: white;
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px -15px rgb(167, 164, 164);
+  }
+
+  .scan img {
+    width: 90%;
+  margin-top: 15px;
+    border-radius: 20px;
+  }
+
+  .text {
+    padding: 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: thin;
+  }
+
+  .text p {
+    color: gray;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .text h2{
+    font-size: 20px;
+  }
+  @media only screen and (min-width:480px) and (max-width: 768px) {
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+     .main {
+    margin: auto;
+    width: 70%;
+     }
+     .scan{
+      margin: 0px auto;
+    width: 100%;
+     }
+   .text{
+padding: 20px 20px;
+   } 
+   .text h2{
+    font-size: 22px;
+  }
+     }
